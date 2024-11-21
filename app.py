@@ -85,9 +85,9 @@ st.subheader(f"Resultados de clasificación del {selected_model_name}")
 image_1, image_2 = image_paths[selected_model_name]
 col1, col2 = st.columns(2)
 with col1:
-    st.image(image_1, caption="Reporte de clasificación", use_column_width=True)
+    st.image(image_1, caption="Reporte de clasificación")
 with col2:
-    st.image(image_2, caption="Matriz de confusión", use_column_width=True)
+    st.image(image_2, caption="Matriz de confusión")
 
 # Entrada de datos por el usuario
 st.subheader("Introduce los datos:")
