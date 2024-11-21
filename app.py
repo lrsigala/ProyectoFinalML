@@ -62,7 +62,7 @@ def load_model(file_path):
 
 # Rutas a los archivos de modelos
 model_paths = {
-    "Modelo 1: RandomForest": "rf_pipeline.pkl",
+    "Modelo 1: RandomForest": "rf_pipeline_2.pkl",
     "Modelo 2: SVM": "svm_pipeline.pkl",
     #"Modelo 3: Voting Ensamble": "vot_pipeline.pkl",
 }
